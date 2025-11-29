@@ -1,0 +1,51 @@
+# =====================================
+# Julia
+# =====================================
+
+# Compiled files
+*.ji
+*.so
+*.dll
+*.dylib
+
+# Julia package directory (avoid huge deps)
+.julia/
+
+# Coverage
+coverage/
+*.cov
+*.lcov
+
+# Documentation build
+docs/build/
+docs/site/
+
+# Manifest — opzionale
+# Se vuoi evitare cambiamenti continui nel Manifest (utile per pacchetti e librerie)
+# Manifest.toml
+
+# Pluto.jl temporary state
+*.pluto.jl
+
+# =====================================
+# VS Code
+# =====================================
+
+.vscode/
+
+# =====================================
+# System / OS files
+# =====================================
+
+.DS_Store
+Thumbs.db
+*~
+
+# =====================================
+# Logs / temporary
+# =====================================
+
+logs/
+*.log
+tmp/
+cache/
