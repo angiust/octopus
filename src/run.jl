@@ -11,7 +11,7 @@ s = 3 # Miscela di 3 pattern
 d_range = 0.0:0.025:1.0
 
 # 3. Range per la temperatura 'T'
-T_range = [0.0001, 0.00001, 0.000001] #[0.01, 0.001] #0.005:0.005:0.2
+T_range = [0.01, 0.001, 0.0001, 0.00001, 0.000001, 0.0000001, 0.00000001, 0.000000001] #0.005:0.005:0.2
 beta_range = 1 ./ T_range
 
 # 4. Range per il carico 'α'
