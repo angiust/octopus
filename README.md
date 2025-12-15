@@ -1,8 +1,8 @@
-## Octopus
+# Octopus
 
-# dependecies
+## dependecies
 
-run:
+### src/run:
 
 import Pkg; Pkg.add("Parameters")
 
@@ -20,7 +20,7 @@ import Pkg; Pkg.add("QuadGK")
 
 import Pkg; Pkg.add("Optim")
 
-plots:
+### src/plots:
 
 import Pkg; Pkg.add("Plots")
 
