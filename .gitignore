@@ -71,3 +71,5 @@ cache/
 
 result/
 plots/
+*.tar.xz
+
