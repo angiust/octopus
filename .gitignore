@@ -71,5 +71,6 @@ cache/
 
 result/
 plots/
+plots_by_temperature/
 *.tar.xz
 
